@@ -7,7 +7,7 @@
 HHOOK hMsgHook = NULL; // Handle of  our hook
 HINSTANCE hInstHookDll = NULL; // The instance of the DLL
 HWND hHandle = NULL; // C# window handle
-UINT customMsg = RegisterWindowMessage(L"VOICEReportToLaudosWeb"); // Custom message
+UINT customMsg = RegisterWindowMessage(L"CustomMessage"); // Custom message
 #pragma data_seg()
 
 #pragma comment(linker,"/SECTION:.SData,RWS") //Directive to the linker to create a shared section with RWS attributes
